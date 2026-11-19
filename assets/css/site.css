@@ -338,18 +338,18 @@ footer{background:var(--navy-900);color:#aab6d8;padding:48px 0 28px;font-size:14
 
 /* ===== Equipe (sócios) ===== */
 .team-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
-.team-photo{border-radius:24px;overflow:hidden;background:#3a3d45;box-shadow:var(--shadow);aspect-ratio:4/5}
-.team-photo img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.team-photo{border-radius:24px;overflow:hidden;background:#3a3d45;box-shadow:var(--shadow);aspect-ratio:984/1400}
+.team-photo img{width:100%;height:100%;object-fit:contain}
 .team .lead{margin-bottom:26px}
 .team-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:28px}
 .tcard{display:flex;align-items:center;gap:14px;border:1px solid var(--line);border-radius:16px;padding:12px;background:#fff}
 .tcard img{width:72px;height:72px;border-radius:50%;object-fit:cover;object-position:center 15%;flex:none;background:#3a3d45}
 .tcard b{display:block;font-size:16px}
 .tcard span{font-size:14px;color:var(--muted)}
-@media (max-width:960px){.team-grid{grid-template-columns:1fr;gap:32px}.team-photo{max-width:520px;aspect-ratio:1/1}}
+@media (max-width:960px){.team-grid{grid-template-columns:1fr;gap:32px}.team-photo{max-width:440px;width:100%;margin:0 auto}}
 @media (max-width:600px){.team-cards{grid-template-columns:1fr}.team .btn{width:100%}}
-.qs-team{border-radius:20px;overflow:hidden;background:#3a3d45;max-width:520px;margin:20px auto 0;aspect-ratio:4/5}
-.qs-team img{width:100%;height:100%;object-fit:cover;object-position:center 20%;border:0;border-radius:0}
+.qs-team{border-radius:20px;overflow:hidden;background:#3a3d45;max-width:440px;margin:20px auto 0;aspect-ratio:984/1400}
+.qs-team img{width:100%;height:100%;object-fit:contain;border:0;border-radius:0}
 .prose .team-cards{margin-top:16px}
 .prose .tcard img{border:0}
 .prose .tcard b{color:var(--ink);line-height:1.3}
